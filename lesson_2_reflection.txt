@@ -1,0 +1,8 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+Its create metadata of particular folder that contain files to track the versions of that files.
+We need it bcoz if some bug may get introduce into our code we get restore it to previous working version of the code. 
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+Before commiting the changes to the repository staging area offer intermidiate stage between final and initial stage in which we can decide what exact files we want to commit.
