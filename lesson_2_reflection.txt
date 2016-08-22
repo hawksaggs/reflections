@@ -6,3 +6,21 @@ We need it bcoz if some bug may get introduce into our code we get restore it to
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 
 Before commiting the changes to the repository staging area offer intermidiate stage between final and initial stage in which we can decide what exact files we want to commit.
+
+How can you use the staging area to make sure you have once commit per logical change?
+
+After one logical change at working directory add it to staging area use git diff to see the difference b/w cwd and staging area.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+To do some experimental changes and donot want to reflect in master in first go.
+
+How do the diagrams help you visualize the branch structure?
+
+It helps in visualizing the whole structure of current repository  from master to several branches.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+Changes that may have done seperately in the same file can be merged . When we merge it with master it remove the label of branch name but we can see the commit made by that branch in an ordered timestamp.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
